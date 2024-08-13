@@ -26,6 +26,7 @@ dist: build
 build: $(LINKNAME) hosts libnss_sqlite.so
 
 
+CLEANS += $(LINKNAME) $(SONAME)
 $(LINKNAME): $(SONAME)
 	rm -f $(LINKNAME)
 	ln -s $(SONAME) $(LINKNAME)

@@ -2,7 +2,7 @@
 /*
  * The MIT License (MIT)
  * 
- * Copyright (c) 2013 Karl Redgate
+ * Copyright (c) 2013-2024 Karl Redgate
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
@@ -21,6 +21,8 @@
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
+// #pragma GCC diagnostic ignored "-Wunused-but-set-variable"
 
 #include <sys/types.h>
 #include <sys/stat.h>
